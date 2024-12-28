@@ -1,4 +1,4 @@
-package com.cat201.utils;
+package com.lawFirm.utils;
 
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
 
-import com.cat201.beans.Case;
+import com.lawFirm.beans.Case;
 
 public class CaseTable {
 

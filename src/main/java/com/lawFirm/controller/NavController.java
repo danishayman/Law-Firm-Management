@@ -1,4 +1,4 @@
-package com.cat201.controller;
+package com.lawFirm.controller;
 
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
@@ -13,17 +13,17 @@ import javafx.scene.layout.VBox;
 
 import java.sql.Connection;
 
-import com.cat201.utils.Toast;
-import com.cat201.utils.Utils;
+import com.lawFirm.utils.Toast;
+import com.lawFirm.utils.Utils;
 
-import com.cat201.manager.UserManager;
-import com.cat201.beans.Staff;
-import com.cat201.beans.User;
-import com.cat201.Main;
-import com.cat201.beans.Admin;
-import com.cat201.dao.StaffDAO;
-import com.cat201.dao.AdminDAO;
-import com.cat201.dao.CaseDAO;
+import com.lawFirm.manager.UserManager;
+import com.lawFirm.beans.Staff;
+import com.lawFirm.beans.User;
+import com.lawFirm.Main;
+import com.lawFirm.beans.Admin;
+import com.lawFirm.dao.StaffDAO;
+import com.lawFirm.dao.AdminDAO;
+import com.lawFirm.dao.CaseDAO;
 
 public class NavController {
 

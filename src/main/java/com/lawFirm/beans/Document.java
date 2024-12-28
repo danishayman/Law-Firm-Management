@@ -1,4 +1,4 @@
-package com.cat201.beans;
+package com.lawFirm.beans;
 
 public class Document {
     

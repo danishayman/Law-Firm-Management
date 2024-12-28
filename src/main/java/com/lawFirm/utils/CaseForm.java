@@ -1,4 +1,4 @@
-package com.cat201.utils;
+package com.lawFirm.utils;
 
 import java.sql.Connection;
 import java.util.ArrayList;
@@ -6,12 +6,12 @@ import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-import com.cat201.beans.Case;
-import com.cat201.beans.Client;
-import com.cat201.beans.Staff;
-import com.cat201.controller.DocumentController;
-import com.cat201.dao.ClientDAO;
-import com.cat201.dao.StaffDAO;
+import com.lawFirm.beans.Case;
+import com.lawFirm.beans.Client;
+import com.lawFirm.beans.Staff;
+import com.lawFirm.controller.DocumentController;
+import com.lawFirm.dao.ClientDAO;
+import com.lawFirm.dao.StaffDAO;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

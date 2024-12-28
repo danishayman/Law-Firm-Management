@@ -1,13 +1,13 @@
-package com.cat201.controller;
+package com.lawFirm.controller;
 
 import java.io.File;
 import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.cat201.beans.Document;
-import com.cat201.dao.DocumentDAO;
-import com.cat201.utils.Toast;
+import com.lawFirm.beans.Document;
+import com.lawFirm.dao.DocumentDAO;
+import com.lawFirm.utils.Toast;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

@@ -1,4 +1,4 @@
-package com.cat201.dao;
+package com.lawFirm.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.cat201.beans.Case;
+import com.lawFirm.beans.Case;
 
 public class CaseDAO {
 

@@ -1,4 +1,4 @@
-package com.cat201;
+package com.lawFirm;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -7,10 +7,11 @@ import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
 
 import java.sql.*;
+import java.util.Objects;
 
-import com.cat201.controller.AuthController;
-import com.cat201.controller.NavController;
-import com.cat201.utils.Utils;
+import com.lawFirm.controller.AuthController;
+import com.lawFirm.controller.NavController;
+import com.lawFirm.utils.Utils;
 
 public class Main extends Application implements AuthController.LoginCallback {
 
@@ -42,7 +43,7 @@ public class Main extends Application implements AuthController.LoginCallback {
 			VBox root = loader.load();
 
 			// Use css file for styling
-			root.getStylesheets().add(getClass().getResource("/application.css").toExternalForm());
+			root.getStylesheets().add(Objects.requireNonNull(getClass().getResource("/application.css")).toExternalForm());
 
 			primaryStage.setTitle("Main");
 			primaryStage.setScene(new Scene(root));

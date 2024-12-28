@@ -1,4 +1,4 @@
-package com.cat201.controller;
+package com.lawFirm.controller;
 
 import java.sql.Connection;
 import java.util.ArrayList;
@@ -12,17 +12,17 @@ import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-import com.cat201.beans.Admin;
-import com.cat201.beans.Client;
-import com.cat201.beans.Staff;
-import com.cat201.dao.AdminDAO;
-import com.cat201.dao.ClientDAO;
-import com.cat201.dao.StaffDAO;
-import com.cat201.manager.UserManager;
-import com.cat201.utils.Form;
-import com.cat201.utils.Table;
-import com.cat201.utils.Toast;
-import com.cat201.utils.Utils;
+import com.lawFirm.beans.Admin;
+import com.lawFirm.beans.Client;
+import com.lawFirm.beans.Staff;
+import com.lawFirm.dao.AdminDAO;
+import com.lawFirm.dao.ClientDAO;
+import com.lawFirm.dao.StaffDAO;
+import com.lawFirm.manager.UserManager;
+import com.lawFirm.utils.Form;
+import com.lawFirm.utils.Table;
+import com.lawFirm.utils.Toast;
+import com.lawFirm.utils.Utils;
 
 public class ClientController {
     

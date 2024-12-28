@@ -1,4 +1,4 @@
-package com.cat201.dao;
+package com.lawFirm.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.cat201.beans.Client;
-import com.cat201.manager.UserManager;
+import com.lawFirm.beans.Client;
+import com.lawFirm.manager.UserManager;
 
 public class ClientDAO {
 

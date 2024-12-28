@@ -1,4 +1,4 @@
-package com.cat201.controller;
+package com.lawFirm.controller;
 
 import java.sql.Connection;
 import java.util.ArrayList;
@@ -12,12 +12,12 @@ import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-import com.cat201.beans.Case;
-import com.cat201.dao.CaseDAO;
-import com.cat201.utils.CaseForm;
-import com.cat201.utils.Table;
-import com.cat201.utils.Toast;
-import com.cat201.utils.Utils;
+import com.lawFirm.beans.Case;
+import com.lawFirm.dao.CaseDAO;
+import com.lawFirm.utils.CaseForm;
+import com.lawFirm.utils.Table;
+import com.lawFirm.utils.Toast;
+import com.lawFirm.utils.Utils;
 
 @FunctionalInterface
 interface CFunction {

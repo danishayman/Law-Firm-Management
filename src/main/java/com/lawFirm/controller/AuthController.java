@@ -1,4 +1,4 @@
-package com.cat201.controller;
+package com.lawFirm.controller;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -12,10 +12,10 @@ import javafx.stage.Stage;
 
 import java.sql.Connection;
 
-import com.cat201.beans.User;
-import com.cat201.dao.AuthDAO;
-import com.cat201.manager.UserManager;
-import com.cat201.utils.Toast;
+import com.lawFirm.beans.User;
+import com.lawFirm.dao.AuthDAO;
+import com.lawFirm.manager.UserManager;
+import com.lawFirm.utils.Toast;
 
 public class AuthController {
     

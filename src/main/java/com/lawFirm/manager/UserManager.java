@@ -1,7 +1,7 @@
-package com.cat201.manager;
+package com.lawFirm.manager;
 
-import com.cat201.beans.Admin;
-import com.cat201.beans.Staff;
+import com.lawFirm.beans.Admin;
+import com.lawFirm.beans.Staff;
 
 public class UserManager {
     private static UserManager instance;

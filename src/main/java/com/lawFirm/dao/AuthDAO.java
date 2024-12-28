@@ -1,10 +1,10 @@
-package com.cat201.dao;
+package com.lawFirm.dao;
 
 import java.sql.Connection;
 import java.util.List;
 
-import com.cat201.beans.Staff;
-import com.cat201.beans.Admin;
+import com.lawFirm.beans.Staff;
+import com.lawFirm.beans.Admin;
 
 public class AuthDAO {
 
