@@ -50,7 +50,7 @@ The system addresses three key **United Nations Sustainable Development Goals (S
 ## 🚀 Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/law-firm-management.git
+   git clone https://github.com/danishayman/Law-Firm-Management.git
    ```
 2. Navigate to the project directory:
    ```bash
