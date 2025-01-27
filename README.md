@@ -8,6 +8,10 @@ The system addresses three key **United Nations Sustainable Development Goals (S
 2. **SDG 9:** Industry, Innovation, and Infrastructure – Transitioning from manual paper-based systems to an organized digital solution.
 3. **SDG 16:** Peace, Justice, and Strong Institutions – Systematic management of legal cases, ensuring justice delivery is thorough and efficient.
 
+![img.png](images/img.png)
+![img.png](images/img2.png)
+
+
 ---
 
 ## ⚙️ Features & Modules
